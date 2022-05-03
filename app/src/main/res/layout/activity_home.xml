@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <ImageButton
+        android:id="@+id/farm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/farmer_btna" />
+
+    <ImageButton
+        android:id="@+id/swachta"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/swachata_btn" />
+
+    <ImageButton
+        android:id="@+id/crime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/police_btn" />
+
+    <ImageButton
+        android:id="@+id/traffic"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/traffic_btn" />
+
+    <ImageButton
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/aboutus_btn" />
+
+    <ImageButton
+        android:id="@+id/emergency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/emergency_btn" />
+
+</LinearLayout>

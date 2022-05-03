@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrimePolice">
+
+
+    <ImageButton
+        android:id="@+id/b1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/call_crimeb" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="missingperson"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        app:srcCompat="@drawable/missing_perb" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="childsafety"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton15"
+        app:srcCompat="@drawable/child_safetyb" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="womensafety"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton16"
+        app:srcCompat="@drawable/womensafetyb" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="uppolice"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+        app:srcCompat="@drawable/uppoliceb" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="188dp"
+        android:onClick="downloadpoliceapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton18"
+        app:srcCompat="@drawable/downloada_crimeb" />
+</androidx.constraintlayout.widget.ConstraintLayout>
